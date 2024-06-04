@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .main {
@@ -22,21 +25,29 @@
     border: none;
     outline: none;
 }
-.head{
+
+.head {
     width: 100%;
     text-align: center;
     font-size: 1.5rem;
     margin-bottom: 8px;
 }
-#input{
+
+.input-box {
+    display: flex;
+    justify-content: center;
+}
+
+#input {
     width: 90%;
     height: 40px;
     padding: 10px;
     font-size: 18px;
-   
+    /* position: relative; */
+
 }
 
-#btn{
+#btn {
     width: 64px;
     height: 40px;
     border-radius: 5px;
@@ -44,37 +55,46 @@
     outline: none;
     cursor: pointer;
     font-size: 18px;
+    /* position: absolute; */
+    /* right: 30%; */
 }
 
-#list{
-   list-style: none;
-   position: relative;
+#list {
+    list-style: none;
+    margin-top: 20px;
+
 }
 
-#list li{
+#list li {
+    position: relative;
     margin: 10px 5px 5px 5px;
     /* background-color: aqua; */
     padding: 5px;
     font-size: 18px;
 }
 
-#list li i{
+#list li i {
     margin: 0px 10px 0px 0px;
 }
-.li-btn{
+
+.li-btn {
     position: absolute;
     top: 0px;
     right: 10px;
     font-size: 22px;
     background-color: transparent;
     border: none;
-    
+    cursor: pointer;
+
 }
-.li-btn2{
+
+.li-btn2 {
     position: absolute;
     top: 2px;
     right: 40px;
     font-size: 20px;
     background-color: transparent;
     border: none;
+    cursor: pointer;
+
 }

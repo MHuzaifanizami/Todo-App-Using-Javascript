@@ -166,6 +166,9 @@
 
     .main {
         background-color: white;
+        display: flex;
+        align-items: flex-start;
+        margin-top: 25%;
     }
 
     #input,
